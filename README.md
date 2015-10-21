@@ -12,26 +12,26 @@ To login digit:
 * “password”, as password.
 
 ### Root
-To execute root operations, digit “su” command and then write “toor” as password.
+To execute root operations, digit ```$ su``` command and then write “toor” as password.
 
 
 ### Running snort:
 
-snort3 version 1.67: 
+snort3 version 3.0.0-a2-167: 
 ```
-$ snort
+$ snort3a
 ```
-snort3 version 1.72:  
+snort3 version 3.0.0-a2-172:  
  ```
-$ snort3.172
+$ snort3b
 ```
-snort2 version 2.976: 
+snort2 version 2.9.7.6 GRE (Build 285): 
  ```
 $ snort2
 ```
 
-##### N.B. 
-Before lunching snort3 in IDS mode, don't forget to set LUA variables:
+##### Note: snort3 environment
+Before lunching snort3 in IDS mode, don't forget to set up the environment:
  ```
 $ export LUA_PATH=$SNORT3_PATH/include/snort/lua/\?.lua\;\;
 $ export SNORT_LUA_PATH=$SNORT3_PATH/etc/snort
