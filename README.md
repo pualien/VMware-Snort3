@@ -31,7 +31,7 @@ $ snort2
 ```
 
 ##### Note: snort3 environment
-Before lunching snort3 in IDS mode, don't forget to set up the environment:
+Before lunching snort3, don't forget to set up the environment:
  ```
 $ export LUA_PATH=$SNORT3_PATH/include/snort/lua/\?.lua\;\;
 $ export SNORT_LUA_PATH=$SNORT3_PATH/etc/snort
