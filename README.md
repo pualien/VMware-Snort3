@@ -3,7 +3,7 @@ VMware Debian 8.1 image with snort3 and snort2 preconfigured.
 
 
 ###  Download 
-download image megalink @ [snort][mega]
+Download virtual machine image @ [snort][mega]
 
 
 ### Login
