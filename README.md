@@ -1,5 +1,5 @@
 # VMware-Snort3
-VMware image with preconfigured snort2 and snor3.
+VMware Debian 8.1 image with snort3 and snort2 preconfigured.
 
 
 ###  Download 
