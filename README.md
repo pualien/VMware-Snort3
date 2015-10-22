@@ -1,6 +1,13 @@
 # VMware-Snort3
 VMware Debian 8.1 image with snort3 and snort2 preconfigured.
 
+* Memory: 724 MBytes
+* Processor: 1
+* Hard Disk: 50 GBytes (6.1 GBytes occupied, 41.9 GBytes free)
+* Network Adapter: NAT
+
+Feel free to customize this settings.
+
 
 ###  Download 
 Download virtual machine image @ [Debian 8.1+snort3+snort2.zip][mega] size: 2.32 GBytes, uncompressed 6.56 GBytes
