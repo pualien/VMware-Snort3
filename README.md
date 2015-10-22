@@ -15,7 +15,7 @@ To login digit:
 To execute root operations, digit ```$ su``` command and then write “toor” as password.
 
 
-### Running snort as root:
+### Running snort as root
 
 snort3 version 3.0.0-a2-167: 
 ```
@@ -30,16 +30,16 @@ snort2 version 2.9.7.6 GRE (Build 285):
 $ snort2
 ```
 
-## Notes
+### Notes
 
-####snort3 environment
+#####snort3 environment
 Before lunching snort3, don't forget to set up the environment:
  ```
 $ export LUA_PATH=$SNORT3_PATH/include/snort/lua/\?.lua\;\;
 $ export SNORT_LUA_PATH=$SNORT3_PATH/etc/snort
 ```
 
-#### Installing next versions of snort3
+##### Installing next versions of snort3
 Download snort3 from official repository:
 ```
 $ git clone git://github.com/snortadmin/snort3.git
