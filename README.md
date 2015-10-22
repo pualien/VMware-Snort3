@@ -40,15 +40,25 @@ $ export SNORT_LUA_PATH=$SNORT3_PATH/etc/snort
 ```
 
 #### Installing next versions of snort3
+Download snort3 from official repository:
 ```
 $ git clone git://github.com/snortadmin/snort3.git
 $ cd snort3/
+```
+Create and define installation folder:
+```
 $ mkdir -p /path/to/snorty
 $ export my_path=/path/to/snorty
 ``` 
 /path/to/snorty could be for example: /opt/snort3_new_version
+
+Configure and install into my_path:
 ```
 $ ./configure --prefix=$my_path && make -j 8 install
+```
+Create link to lunch snorty in terminal:
+```
+$ su ln -s /path/to/snorty/bin/snort /usr/sbin/snorty
 ```
 
 
