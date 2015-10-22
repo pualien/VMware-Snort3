@@ -3,7 +3,7 @@ VMware Debian 8.1 image with snort3 and snort2 preconfigured.
 
 
 ###  Download 
-Download virtual machine image @ [Debian 8.1+snort3+snort2.zip][mega]
+Download virtual machine image @ [Debian 8.1+snort3+snort2.zip][mega] size: 2.32 GBytes, uncompressed 6.56 GBytes
 
 
 ### Login
