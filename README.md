@@ -10,7 +10,7 @@ Feel free to customize these settings.
 
 
 ###  Download 
-Download virtual machine image @ [Debian 8.1+snort3+snort2.zip][mega] size: 2.32 GBytes, uncompressed 6.56 GBytes
+Download virtual machine image @ [Debian 8.1+snort3+snort2.zip][mega] size: 2.32 GBytes, uncompressed 6.56 GBytes.
 
 
 ### Login
