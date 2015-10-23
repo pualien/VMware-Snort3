@@ -61,6 +61,7 @@ $ export my_path=/path/to/snorty
 
 Configure and install into my_path:
 ```
+$ autoreconf -isvf
 $ ./configure --prefix=$my_path && make -j 8 install
 ```
 Create link to lunch snorty in terminal:
@@ -68,6 +69,11 @@ Create link to lunch snorty in terminal:
 $ su ln -s /path/to/snorty/bin/snort /usr/sbin/snorty
 ```
 
+##### Installing next versions of snort2
+Easy download and install stable snort2 releases through apt-get:
+```
+$ su apt-get install snort
+```
 
 [mega]: <https://mega.nz/#!UkwUCKDb!6_6JpTcqrzd0BlRAvPwbBDK6hcrFdlTumaGXFr1aGnA>
 
